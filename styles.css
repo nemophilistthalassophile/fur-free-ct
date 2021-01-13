@@ -1,0 +1,261 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.logo {
+  width: 110px;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  margin-bottom: 0px;
+}
+
+.bigscreen {
+  background-image: url('priss-enri-cYkTR9_IcSk-unsplash.jpg');   /* photo cred: Priss Enri*/
+  background-size: cover; 
+  background-position: center center;
+  background-repeat: no-repeat;
+  /*height: 800px;*/
+  max-width: 100%;
+  height: 800px;
+}
+
+.bigscreen-events {
+    background-image: url('nathan-anderson-pAiwxxJVh0I-unsplash.jpg');   /* photo cred: Nathan Anderson*/
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 800px;
+}
+
+.bigscreen-media {
+    background-image: url('daniel-watson-ETXsxLOz_NY-unsplash.jpg');   /* photo cred: Daniel Watson*/
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 800px;
+}
+
+/*.nav {   
+  margin: 0;
+  padding: 25px 0;
+  
+} */
+
+.nav li {
+  float: right;
+  display: inline;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 325;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  margin-right: 40px;
+  margin-left: 10px;
+  margin-top: 10px;; 
+}
+
+li a:link, a:active, a:visited {
+  color: #fff;
+}
+
+.main {
+  position: relative;
+  top: 110px;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.main h1 {
+  display: inline-block;
+  color: #333;
+  font-family: 'sans-serif;
+  font-weight: 600;
+  font-size: 55px;
+  margin-top: 0px;
+  margin-bottom: 80px; */
+  text-transform: uppercase;
+  margin: 0 auto;
+}
+
+.btn-main {
+  display: block;
+  background-color: #333;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  letter-spacing: .2em;
+  padding: 10px 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  /*width: 210px; */
+  margin: 0 auto;
+  max-width: 180px;
+  
+}
+
+.main h3 {
+    color: black;
+    font-family: 'Nothing you could do', cursive;
+    font-size: 30px;
+    text-shadow: #333;
+    margin-top: 60px;
+    margin-left: 930px; 
+    background-color: peachpuff;
+    width: 60px;
+}
+
+.h3-events {
+    font-size: 25px;
+    width: 570px;
+    position: absolute;
+    transform: skewY(-6deg);
+    background-color: peachpuff;
+    padding: 10px;
+}
+
+.supporting {
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+
+.supporting .col {
+  float: left;
+  width: 33%;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+.supporting img {
+  width: 300px;
+  height: 200px;
+  box-shadow: 5px 5px 5px grey;
+  
+}
+
+.supporting img:hover {
+   /* width: 350px;
+    height: 250px;
+    transition: 300ms ease-in-out; */   /*  FIX THIS- TWITCHY!!   */
+} 
+.supporting h2 {
+  font-weight: 600;
+  font-size: 23px;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+.supporting p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 0 50px;
+  margin-bottom: 20px;
+}
+
+.btn-default {
+  border: 1px solid #333333;
+  color: #333;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 10px;
+  letter-spacing: 1.3px;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 40px;
+
+  padding: 15px 50px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 30px 0; 
+}
+
+.col a {
+  color: black;
+}
+
+.footer p {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-size: 11px;
+  margin-left: 40px;
+  margin-bottom: 40px;
+  display: inline-block;
+}
+
+.box {
+    display: inline-block;
+    margin-left: 420px;
+}
+
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-size: 14px;
+}
+
+.footer a {
+    margin-left: 3px;
+}
+
+
+@media (max-width: 900px) {
+  
+  .nav li {
+    font-size: 14px;
+    margin: 10px 10px;
+  }
+  
+  .main h1 {
+    font-size: 35px;
+    padding: 0 40px;
+    margin: auto;
+  }
+
+  .btn-main {
+    font-size: 16px;
+    margin-top: 20px;
+  }
+
+  .bigscreen {
+    height: 500px;
+  } 
+
+  .supporting .col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .main h3 {
+    font-size: 20px;
+    width: 550px;
+    margin: 20px auto;
+    transform: skewY(-6deg);
+  }
+
+  .box {
+    display: inline-block;
+    text-align: center;
+    margin-left: 50px;
+  }
+
+  h4, footer a {
+    width: 120px;
+  }
+}
